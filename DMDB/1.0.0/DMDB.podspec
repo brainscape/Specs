@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     }
     
     s.source = { 
-        :hg => "ssh://jholliday@bss-backend.brainscape.com//var/hg/iOS/dmdb", 
-        :revision => s.version.to_s
+        :hg => "ssh://brainscape@bss-backend.brainscape.com//var/hg/iOS/dmdb", 
+        :revision => 'f5eb1fd506e1'
     }
     
     s.source_files = 'Classes/*.{h,m}'
